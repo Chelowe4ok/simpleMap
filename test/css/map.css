@@ -1,0 +1,54 @@
+
+html, body {
+    height: 100%; margin: 0; padding: 0;
+}
+
+#header {
+	width: 100%;
+	height: 50px;
+	background: lightBlue;	
+}
+
+#header strong {
+	margin: 0 auto;
+	color: blue;
+	font-size: 20px;
+}
+
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+#form {
+	margin: 20px 0;
+	width: 40%;
+	max-width: 300px;	
+}
+
+#form .boot {
+	margin-bottom: 10px;
+}
+
+#mapDiv {
+    height: auto;
+    width: 100%;
+}
+
+#map {
+    height: 500px;
+    width: auto; 
+}
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 920px){
+    .footer {
+        visibility: hidden;
+        margin-top: 0;
+    }
+}
