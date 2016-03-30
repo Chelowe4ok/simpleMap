@@ -4,30 +4,25 @@ html, body {
 }
 
 #header {
-	width: 100%;
-	height: 50px;
-	background: lightBlue;	
+    width: 100%;
+    height: 50px;
+    background: #34DBE1;	
 }
-
-#header strong {
-	margin: 0 auto;
-	color: blue;
-	font-size: 20px;
-}
-
 
 .wrapper {
     width: 80%;
     margin: 0 auto;
+    max-width: 1440px;
 }
+
 #form {
-	margin: 20px 0;
-	width: 40%;
-	max-width: 300px;	
+    margin: 20px 0;
+    width: 40%;
+    max-width: 300px;	
 }
 
 #form .boot {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #mapDiv {
