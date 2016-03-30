@@ -8,9 +8,9 @@ LAMBERT_MAPTYPE_ID = 'lambert';
 var ZOOM_LAVEL = 0;
 
 var lambertRangeX = 800; // length x axis for Lambert`s a map ( if a picture isn`t loaded, default 800 )
-var lambertRangeY =  800; // length y axis for Lambert`s a map ( if a picture isn`t loaded, default 800 )
+var lambertRangeY =  500; // length y axis for Lambert`s a map ( if a picture isn`t loaded, default 500 )
 var petersRangeX = 800; // length x axis for Peter`s a map ( if a picture isn`t loaded, default 800 )
-var petersRangeY = 800; // length y axis for Peter`s a map ( if a picture isn`t loaded, default 800 )
+var petersRangeY = 500; // length y axis for Peter`s a map ( if a picture isn`t loaded, default 500 )
 
 var initMap = function(mapImage) {
     
